@@ -1,1 +1,102 @@
-Hello World
+<!doctype HTML>
+
+<html>
+
+ <head>
+    <title> My portfolio </title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="my own porfolio" />
+    <meta name="keywords" content="fiume,portfolio,works,about,contact,photography,roberta" />
+
+    <link rel="stylesheet" href="resources/css/style.css" type="text/css">
+    <link rel="stylesheet" href="resources/css/queries.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ </head>
+ <body>
+    <section class="first-section">
+            <div class="box-button">
+             <label for="toggle-1"><i class="material-icons">view_headline</i> </label>
+             <input type ="checkbox" id="toggle-1">
+                <ul class="menu">
+                    <li><a href="#about"> About me </a></li>
+                    <li><a href="#my-portfolio"> My portfolio</a></li>
+                    <li><a href="#contact"> Contact </a></li>
+                </ul>
+            </div>
+        <div class="big-container">  
+         <div class="avatar-img"><img src="images/picmod.png"/></div>
+         <div class="avatar-text"><h1> Hi! </h1> <br/> <h1> My name is Roberta Fiume and I am a Web & Graphic Designer. </h1> </div>
+        </div>
+    </section>
+
+    <section class="second-section js" id="about">
+
+        <div class="about-me-box">
+            <h1> About me </h1>
+        </div>
+
+        <div class="pic-skills-box">
+            <ul class="img-menu">
+                <li class="list-pics"><img src="images/degree1.png"/></li>
+                <li class="list-pics"><img src="images/phot-icon.png"/> </li>
+                <li class="list-pics"><img src="images/certificate-icon.png"/> </li>
+            </ul>
+        </div>
+
+        <div class="text-box">
+            <ul class="text-menu">
+                <li class="text-list"><h2>I have a Degree in Communication Science and a Master Degree in Audiovisual Communication</h2></li>
+                <li class="text-list"><h2>I love Photoshop</h2></li>
+                <li class="text-list"><h2> I have a Web Design Course Certificate and I never stop learning </h2></li>
+            </ul>
+        </div>
+
+    </section>
+    <section class="third-section">
+
+        <div class="love-box"><img src="images/love1.png"/>
+        </div>
+
+        <div class="hobbies-box">
+            <ul class="hobbies-list">
+                <li class="hobby">
+                    <div class="box-pic"><img src="images/camara5.png" id="camara"/></div>
+                    <div class="text-hobby"><h2> Photography </h2></div>
+                </li>
+                <li class="hobby">
+                    <div class="box-pic"><img src="images/book.png"/></div>
+                    <div class="text-hobby"><h2> Reading </h2></div>
+                </li>
+                <li class="hobby">
+                    <div class="box-pic"><img src="images/roller2.png"/></div>
+                    <div class="text-hobby"><h2> Rollerblading </h2></div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="fourth-section js" id="my-portfolio">
+        <div class="box-port">
+            <h1>My portfolio </h1>
+        </div>
+        <ul class="link-list">
+            <li><a href="https://eliadecouture.000webhostapp.com/"><h3> Elìade Couture </h3></a></li>
+            <li><a href="https://robertaf898.000webhostapp.com/"><h3> Omnifood </h3></a></li>
+            <li><a href="https://www.womenwishes.robertafiume.co.uk"><h3> Women Wishes </h3></a></li>  
+        </ul>
+    </section>
+    <section class="fifth-section" id="contact">
+         <div class="box-contact">
+            <h1> Contact me </h1>
+        </div>
+        <ul class="contact-list">
+            <li><img src="images/email.png" class="pic-contact"/><div class="box-details"><h2> robertaf898@gmail.com</h2></div></li>
+            <li><img src="images/phone2.png" class="pic-contact"/><div class="box-details"><h2> 07477876514 </h2></div></li>
+        </ul>
+
+    </section>
+ <script src="resources/js/script.js"></script>
+ </body>
+
+</html>
