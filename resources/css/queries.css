@@ -1,0 +1,404 @@
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+   .avatar-text {
+       width: 70%;
+   }
+ 
+}
+
+
+@media only screen   
+  and (min-width: 1500px) and (max-width: 1600px) {
+
+    /* FIRST SECTION  */
+
+    .big-container {
+        margin-left: 200px;
+    }
+}
+
+
+/* IPAD PRO POTRAIT */
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-width: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+    .big-container {
+         width: 70%;
+         margin-top: 0px;
+         margin-left: 40px;
+         height: 400px;
+    }
+    .avatar-text {
+      width: 40%;
+      height: 400px;
+      margin-left: 0px;
+      margin-top: 40px;
+    }
+    .avatar-img {
+        width: 320px;
+    }
+    .avatar-img img {
+      height: 400px;
+    }
+    .avatar-text h1 {
+     font-size: 28px;
+    }
+    .fourth-sectipn {
+     margin-top: 50px;
+    }
+  
+}
+
+/* IPAD PRO LANDSCAPE */
+@media only screen 
+and (min-width: 1060px) 
+and (max-width: 1366px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+
+    .box-button {
+     margin-right: 0px; 
+     margin-left: 0px;
+    }
+
+    .big-container {
+        height: 500px;
+        margin-left: 40px !important;
+    }
+
+    .avatar-img {
+     width: 400px;
+     height: 500px;
+    }
+
+    .avatar-img img {
+     width: 400px;
+     height: 500px;
+    }
+
+    .avatar-text {
+     width: 40%;
+     height: 500px;
+     margin-left: 50px;
+    }
+} 
+
+/* IPAD MINI Landscape */
+@media only screen 
+and (min-width: 768px) 
+and (max-width: 1024px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 1) {
+
+    .avatar-img img {
+     width: 250px;
+    }
+
+    .avatar-img {
+     width: 250px;
+    }
+
+    .big-container {
+        margin-left: 0px;
+    }
+    .box-button {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    .avatar-text h1 {
+     font-size: 28px;
+    }
+
+    .avatar-text {
+        margin-left: 0px;
+        width: 50%;
+    }
+     .material-icons {
+       margin-left: 20px;
+    }
+
+    .hobbies-list {
+        height: 600px;
+        margin-top: 30px;
+    }
+    /* FIFTH SECTION  */
+     .fifth-section {
+      margin-top: 50px;
+    }
+  
+}
+
+/* IPAD MINI Portrait  */
+@media only screen and (min-width: 768px) 
+and (max-width: 1023px) 
+and (orientation: portrait)  
+and (-webkit-min-device-pixel-ratio: 1) {
+
+    .box-button {
+        width: 170px;
+        height: 350px;
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+
+    input[type=checkbox]:checked ~ .menu {
+        width: 170px;
+        height: 245px;
+    }
+    .big-container {
+        width: 73.9%;
+        margin-left: 30px;
+        height: 350px;
+        margin-top: 50px;
+    }
+ 
+    .avatar-img img {
+     width: 225px;
+     height: 350px;
+    }
+
+    .avatar-img {
+     width: 225px;
+     height: 350px;
+    }
+    
+    .avatar-text {
+      width: 46%;
+      margin-left: 0px;
+      height: 350px;
+    }
+
+    .avatar-text h1 {
+     font-size: 19px;
+    }
+      .pic-skills-box {
+      width: 250px;
+    }
+
+    .text-box {
+     margin-left: 20px;
+    }
+
+    .list-pics img {
+     width: 120px;
+     height: 120px;
+     margin: 20px;
+    }
+
+    .hobbies-list {
+        height: 600px;
+        margin-top: 35px;
+    }
+    #camara {
+    height: 100px;
+    width: 90px;
+    }
+    .box-pic img {
+      height: 100px;
+      width: 100px;
+    }
+} 
+
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) {
+
+    .first-section {
+        margin-top: 0px;
+        height: 200px;
+    }
+    .box-button {
+        margin-top: 10px;
+        width: 80px;
+        height: 200px;
+    }
+
+    label {
+        width: 30px;
+        height: 30px;
+        margin-top: 0px;
+    }
+    .material-icons {
+        font-size: 30px !important;
+    }
+
+    input[type=checkbox]:checked ~ .menu {
+        width: 80px;
+        height: 100px;
+    }
+    .menu a {
+     font-size: 10px;
+     margin-left: 5px;
+    }
+    .big-container {
+        height: 170px;
+        width: 70%;
+        margin-top: 30px;
+        margin-left: 0px;
+
+    }
+    .avatar-img {
+      width: 100px;
+      height: 130px;
+    }
+    .avatar-img img {
+      width: 100px;
+      height: 130px;
+      margin-top: 3px;
+    }
+     .avatar-text {
+     margin-top: 7px;
+     height: 100px;
+     margin-left: 0px; 
+     }
+    .avatar-text h1 {
+    font-size: 8px;
+    }
+
+ /* SECOND SECTION  */
+ 
+  .second-section {
+    height: 200px;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .pic-skills-box {
+      margin-top: 30px;
+    width: 100px;
+    height: 150px;
+   }
+ .list-pics img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+   }
+ .img-menu {
+    width: 100px;
+    height: 150px;
+    margin-top: 0px; 
+   }
+  .text-box {
+    margin-top: 30px;
+    width: 150px;
+    height: 150px;
+  }
+  .text-list {
+    margin-left: 20px;
+  }
+  .text-list h2 {
+      font-size: 8px;
+  }
+  .about-me-box {
+     margin-top: 10px;
+     height: 20px;
+     font-size: 10px;
+     padding: 15px;
+}
+
+  /* THIRD SECTION  */
+
+  .third-section {
+      margin-top: 40px;
+      height: 350px;
+  }
+
+  .love-box {
+    width: 80px;
+    height: 80px;
+ }
+
+     .love-box img {
+      width: 80px;
+      height: 80px;
+   }
+
+    .hobbies-box {
+      width: 100px;
+      height: 250px;
+      margin-left: 30px;
+     }
+   .text-hobby {
+     height: 30px;
+   }
+    .text-hobby h2 {
+        font-size: 8px;
+    }
+
+    .hobby {
+        width: 100px;
+        height: 120PX;
+      align-items: center;
+    }
+
+  .hobbies-list {
+     margin-top: 0px;
+     margin-left: 0px;
+      width: 100px;
+      height: 250px;
+  }
+    .box-pic img {
+        width: 40px;
+        height: 40px;
+    }
+    #camara {
+      height: 40px;
+       width: 40px;
+    }
+
+
+  /* FOURTH SECTION  */
+
+    .fourth-section {
+    height: 250px;
+    }
+
+   .box-port {
+    margin-top: 40px;
+   }
+
+
+  .box-port h1 {
+    font-size: 16px;
+   }
+
+  .box-contact h1 {
+    font-size: 19px;
+   }
+  .link-list li h3 {
+    font-size: 8.5px !important;
+  }
+
+  /* FIFTH SECTION  */
+
+    .fifth-section {
+      height: 200px;
+    }
+
+    .box-contact {
+        margin-top: 30px;
+    }
+    .box-contact h1 {
+        font-size: 16px;
+    }
+
+   .box-details h2 {
+      font-size: 12px;
+   }  
+   .contact-list {
+       margin: 5px;
+     }
+    .pic-contact {
+      margin: 10px;
+      width: 30px;
+      height: 30px;
+    }
+}
+
+
+
+  
