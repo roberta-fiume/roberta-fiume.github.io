@@ -17,13 +17,17 @@
  <body>
     <section class="first-section">
             <div class="box-button">
-             <label for="toggle-1"><i class="material-icons">view_headline</i> </label>
-             <input type ="checkbox" id="toggle-1">
-                <ul class="menu">
-                    <li><a href="#about"> About me </a></li>
-                    <li><a href="#my-portfolio"> My portfolio</a></li>
-                    <li><a href="#contact"> Contact </a></li>
-                </ul>
+                <div class="button-icon-menu">
+                        <i class="material-icons" onclick= "hideAndShow()" >view_headline</i>
+                </div>
+                
+                <div id="div-menu"> 
+                    <ul id="menu">
+                        <li class="list-menu"><a href="#about" class="link-menu"> About me </a></li>
+                        <li class="list-menu"><a href="#my-portfolio" class="link-menu"> My portfolio</a></li>
+                        <li class="list-menu"><a href="#contact" class="link-menu"> Contact </a></li>
+                    </ul>
+                </div>
             </div>
         <div class="big-container">  
          <div class="avatar-img"><img src="images/picmod.png"/></div>
