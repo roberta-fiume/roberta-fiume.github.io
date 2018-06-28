@@ -39,6 +39,7 @@
     }
     .avatar-img {
         width: 320px;
+        margin-left: 0px;
     }
     .avatar-img img {
       height: 400px;
@@ -100,6 +101,7 @@ and (-webkit-min-device-pixel-ratio: 1) {
 
     .avatar-img {
      width: 250px;
+     margin-left: 100px;
     }
 
     .big-container {
@@ -236,11 +238,6 @@ and (max-width : 480px) {
         font-size: 30px !important;
     }
 
-    input[type=checkbox]:checked ~ .menu {
-        width: 80px;
-        height: 100px;
-    }
-
     #menu {
         width: 70px;
         height: 90px;
@@ -265,6 +262,7 @@ and (max-width : 480px) {
     .avatar-img {
       width: 100px;
       height: 130px;
+      margin-left: 0px!important;
     }
 
     .avatar-img img {
